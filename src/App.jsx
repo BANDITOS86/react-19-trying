@@ -1,6 +1,8 @@
 import { MessageToggler } from './1_use/MessageToggler'
 import { ThemeExample } from './1_use/Theme'
 import { UserInfo } from './1_use/Users'
+import Form from './2_forms/Form'
+import { FormStatus } from './2_forms/formStatus'
 import './App.css'
 
 function App() {
@@ -11,8 +13,10 @@ function App() {
 
       {/* <MessageToggler /> */}
       {/* <UserInfo /> */}
+      {/* <ThemeExample /> */}
 
-      <ThemeExample />
+      {/* <Form /> */}
+      <FormStatus />
    </div>
   )
 }
